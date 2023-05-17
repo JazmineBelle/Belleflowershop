@@ -1,0 +1,174 @@
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background-color: rgba(248, 177, 149, 0.9);
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+	box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+header a {
+	margin: 0 4vw;
+}
+
+.navbar-logo {
+	width: 170px;
+}
+
+
+h1 {
+	margin: 0;
+	color: #FFF;
+	font-size: 32px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav a {
+	color: #000;
+	text-shadow: 2px 2px 4px #fff;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+main {
+	max-width: 1200px;
+	margin: auto;
+}
+
+#hero {
+	background-image: url('hero-image.jpg');
+	background-size: cover;
+	background-position: center;
+	color: #FFF;
+	text-align: center;
+	padding: 100px 0;
+
+	margin-top: 10%;
+	height: 50vh;
+	text-shadow: 2px 2px 4px #000;
+}
+
+#hero h2 {
+	font-size: 48px;
+	margin: 0;
+}
+
+#hero p {
+	font-size: 24px;
+}
+
+#hero .btn {
+	background-color: #F8B195;
+	color: #FFF;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 20px;
+	font-size: 20px;
+	margin-top: 20px;
+	text-decoration: none;
+	display: inline;
+}
+
+#shop {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	padding: 15vh 0;
+}
+
+.shop-header {
+	text-align: center;
+
+	font-size: 1.5em;
+}
+
+.flower-type-div {
+	border: #000 solid 2px;
+	border-radius: 10px;
+
+	padding: 2%;
+
+	margin-bottom: 5%;
+
+	background-color: rgba(248, 177, 149, 0.8);
+}
+
+.products {
+	display: flex;
+	justify-content: space-around;
+}
+
+.product {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	width: clamp(100px, 30%, 500px);
+
+	padding: 5% 0;
+	border: #000 solid 2px;
+	border-radius: 10px;
+
+	background-color: #fff;
+}
+
+.product img {
+	width: clamp(100px, 50%, 500px);
+}
+
+.product-name {
+	margin: 10px 0;
+	font-size: clamp(1em, 150%, 2em);
+}
+
+.product-description {
+	padding: 0 20px;
+	text-align: justify;
+}
+
+.product button {
+	background-color: #F8B195;
+	color: #000;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 20px;
+	font-size: 1em;
+	margin-top: 20px;
+	text-decoration: none;
+	display: inline;
+
+	cursor: pointer;
+}
+
+footer {
+	text-align: center;
+	background-color: rgba(248, 177, 149, 0.9);
+	margin: 0;
+	padding: 20px 0;
+	font-size: 20px;
+
+	box-shadow: 0px -3px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+html {
+	scroll-behavior: smooth;
+}
